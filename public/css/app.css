@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+}
+
+h4 {
+  color: gold;
+}
+
 ul {
   list-style: none;
   display: flex;

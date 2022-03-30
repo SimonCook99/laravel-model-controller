@@ -22,6 +22,10 @@
                 <p>Nazionalità: {{$movie["nationality"]}}</p>
                 <p>Data di rilascio: {{$movie["date"]}}</p>
                 <p>Recensioni: {{$movie["vote"]}}</p>
+
+                @if ($movie["vote"] >= 9)
+                    <h4>Wow, questo film piace proprio a tutti!!!</h4>
+                @endif
             </li>
         @endforeach
 
