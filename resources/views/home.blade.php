@@ -19,7 +19,7 @@
             <li>
                 <h3>Titolo: {{$movie["title"]}}</h3>
                 <h3>Titolo originale: {{$movie["original_title"]}}</h3>
-                <p>Nazionalità:{{$movie["nationality"]}}</p>
+                <p>Nazionalità: {{$movie["nationality"]}}</p>
                 <p>Data di rilascio: {{$movie["date"]}}</p>
                 <p>Recensioni: {{$movie["vote"]}}</p>
             </li>

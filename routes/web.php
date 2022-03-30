@@ -13,4 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//chiamo il metodo index nella route della home
 Route::get('/', "PageController@index");
